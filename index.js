@@ -22,11 +22,11 @@ const rl = createInterface(process.stdin, process.stdout)
 //const app = express()
 //const port = process.env.PORT || 8080;
 
-say('Nekotina\nBot', {
+say('Monkey\nBot', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Si eres mi noviecita geri, hola mi amor te amo mucho<3`, {
+say(`Si eres el Monovan y estas leyendo esto, no te sorprendas ya sabemos que eres gay xD`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -89,11 +89,11 @@ console.log(chalk.yellow(`╭${lineM}
 ┊${chalk.blueBright('┊')}${chalk.cyan(`💚 Nombre: ${packageJsonObj.name}`)}
 ┊${chalk.blueBright('┊')}${chalk.cyan(`𓃠 Versión: ${packageJsonObj.version}`)}
 ┊${chalk.blueBright('┊')}${chalk.cyan(`💜 Descripción: ${packageJsonObj.description}`)}
-┊${chalk.blueBright('┊')}${chalk.cyan(`😺 Project Author: Richetti`)}
+┊${chalk.blueBright('┊')}${chalk.cyan(`😺 Project Author: Anthony Ventas`)}
 ┊${chalk.blueBright('┊')}${chalk.blueBright('┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
 ┊${chalk.blueBright('┊')}${chalk.yellow(`💜 Colaboradores:`)}
-┊${chalk.blueBright('┊')}${chalk.yellow(`• Richetti`)}
-┊${chalk.blueBright('┊')}${chalk.yellow(`• GeriDzn`)}
+┊${chalk.blueBright('┊')}${chalk.yellow(`• Monovan`)}
+┊${chalk.blueBright('┊')}${chalk.yellow(`• Daniel`)}
 ┊${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
 ┊${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
 ┊${chalk.blueBright('┊')}${chalk.cyan(`⏰ Hora Actual :`)}
