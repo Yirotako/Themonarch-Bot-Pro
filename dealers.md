@@ -4,6 +4,6 @@
  
 | USUARIO          |   CÓDIGO                | CONTACTO    | ESTADO
 | ------------     | ------------            | ------------| ------------
-| [**Richetti123**](https://github.com/Richetti123)        | `KmZxVE5lIUVvrkqLd8EYJlC9G` | `IG: @richetti_123` | ✅
+| [**Anthony Ventas**](https://wa.me/5215625060788)        | `KmZxVE5lIUVvrkqLd8EYJlC9G` | `+525625060788` | ✅
 | ⚪        | ⚪               |  ⚪ | ⚪
 
