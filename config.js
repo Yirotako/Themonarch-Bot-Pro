@@ -12,12 +12,12 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 global.owner = [
-["5215625060788", 'Anthony Ventas', true], //Capibot Premium
-["5213344515151", 'Anthony Ventas', true], //Nekotina bot
-["525625060788"]]
+["5215625768269", 'Monkey Shop', true], //Capibot Premium
+["525625768269", 'Monkey Shop', true], //Nekotina bot
+["5215625060788"]]
 
-global.mods = ["5215625060788"]
-global.prems = ["5215625060788"]
+global.mods = ["5215625768269"]
+global.prems = ["5215625768269"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -112,8 +112,8 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["5215625060788", 'Anthony Ventas', 1], 
-["5213344515151", 'Anthony', 1],  
+["5215625768269", 'Monkey Bot', 1], 
+["525625768269", 'Anthony', 1],  
 ["5215615060788", 'Capibot', 1]]
 
 global.mail = '' // Add email
@@ -122,8 +122,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼"
-global.author = "𝘼𝙉𝙏𝙃𝙊𝙉𝙔 𝙑𝙀𝙉𝙏𝘼𝙎"
+global.packname = "MONKEY BOY"
+global.author = "MONOVAN SHOP"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -131,7 +131,7 @@ global.author = "𝘼𝙉𝙏𝙃𝙊𝙉𝙔 𝙑𝙀𝙉𝙏𝘼𝙎"
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
-global.gt = "𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼"
+global.gt = "MONKEY"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -157,9 +157,9 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼"
-global.igfg = "𝙉𝙀𝙆𝙊𝙏𝙄𝙉𝘼"
-global.nomorown = "5215625060788"
+global.wm = "MONKEY"
+global.igfg = "MONKEY"
+global.nomorown = "5215625768269"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
