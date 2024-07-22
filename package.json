@@ -1,7 +1,7 @@
 {
-"name": "MonkeyBot",
+"name": "yirobot",
 "version": "1.0.0", 
-"description": "BY MONOVAN SHOP",
+"description": "BY 𝐘𝐈𝐑𝐎 𝐒𝐇𝐈𝐒𝐇𝐈𝐆𝐀𝐍𝐆",
 "main": "index.js",
 "type": "module",
     
@@ -19,7 +19,7 @@
     
 "homepage": "https://github.com/GataNina-Li/GataBot-MD",
 "author": {
-"name": "MONOVAN SHOP" },
+"name": "𝐘𝐈𝐑𝐎 𝐒𝐇𝐈𝐒𝐇𝐈𝐆𝐀𝐍𝐆" },
     
 "repository": {
 "type": "git",
