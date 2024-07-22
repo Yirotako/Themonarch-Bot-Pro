@@ -7,18 +7,18 @@ try {
 let res = await mediafireDl(args[0])
 let { name, size, date, mime, link } = res
 let caption = `${eg}
-┃ 𓃠 *${gt} ${vs}* 
+┃ 🚀 *${gt} ${vs}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ 💫 ${mid.name}
+┃ 🚀 ${mid.name}
 ┃ ${name}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ 💪 ${mid.smsYT11}
+┃ 🚀 ${mid.smsYT11}
 ┃ ${size}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ 🚀 ${mid.smsYT12}
 ┃ ${mime}`.trim()
 conn.reply(m.chat, caption, m, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: '𝑴𝒐𝒏𝒌𝒆𝒚 𝑩𝒐𝒕 𝘾𝙧𝙚𝙖𝙙𝙤 𝙥𝙤𝙧 𝙈𝙤𝙣𝙤𝙫𝙖𝙣 𝙑𝙚𝙣𝙩𝙖𝙨', previewType: 0, thumbnail: gataMenu, sourceUrl: md}}})
+contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: '𝐘𝐈𝐑𝐎 𝐁𝐎𝐓 𝐁𝐘 𝐘𝐈𝐑𝐎 𝐒𝐇𝐈𝐒𝐇𝐈𝐆𝐀𝐍𝐆', previewType: 0, thumbnail: gataMenu, sourceUrl: md}}})
 await conn.sendFile(m.chat, link, name, '', m, null, { mimetype: mime, asDocument: true })
 } catch (e) {
 await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, m)
