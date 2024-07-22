@@ -12,12 +12,12 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 global.owner = [
-["521⁠8661398209", 'Monkey Shop', true], //Capibot Premium
-["521⁠8661398209", 'Monkey Shop', true], //Nekotina bot
-["521⁠8661398209"]]
+["5215636167834", '𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓', true], //Capibot Premium
+["5215636167834", '𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓', true], //Nekotina bot
+["5215636167834"]]
 
-global.mods = ["521⁠8661398209"]
-global.prems = ["521⁠8661398209"]
+global.mods = ["5215636167834"]
+global.prems = ["5215636167834"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -32,7 +32,7 @@ global.keepAliveRender = 0; //Solo valores: 1 o 0
 // ❰❰ methodCode ❱❱
 // [ES] > Agregue el número del Bot en "botNumberCode" si desea recibir código de 8 dígitos sin registrar el número en la consola.
 // [EN] > Add the Bot number in "botNumberCode" if you want to receive 8-digit code without registering the number in the console.
-global.botNumberCode = "" //example: "+5215625060788"
+global.botNumberCode = "" //example: ""
 global.confirmCode = "" // No tocar esto : Do not touch this line
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -112,18 +112,18 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["521⁠8661398209", 'Monkey Bot', 1], 
-["521⁠8661398209", 'Anthony', 1],  
-["521⁠8661398209", 'Capibot', 1]]
+["5215636167834", '𝐘𝐈𝐑𝐎 𝐒𝐇𝐈𝐒𝐇𝐈𝐆𝐀𝐍𝐆', 1], 
+["5215636167834", '𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓', 1],  
+["5215636167834", '𝐘𝐈𝐑𝐎 𝐒𝐇𝐈𝐒𝐇𝐈𝐆𝐀𝐍𝐆', 1]]
 
-global.mail = '' // Add email
-global.desc = '' // Add short description (20 caractres max)
-global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se aplicará sólo si su whasapp no tiene descripción)
+global.mail = 'yairtako22@gmail.com' // Add email
+global.desc = '' /𝐘𝐈𝐑𝐎 𝐒𝐇𝐈𝐒𝐇𝐈𝐆𝐀𝐍𝐆/ Add short description (20 caractres max)
+global.desc2 = '𝐁𝐎𝐓 𝐂𝐑𝐄𝐀𝐃𝐎 𝐏𝐎𝐑 𝐘𝐈𝐑𝐎 𝐒𝐇𝐈𝐒𝐇𝐈𝐆𝐀𝐍𝐆 𝐀𝐃𝐐𝐔𝐈𝐄𝐑𝐄 𝐄𝐋 𝐓𝐔𝐋𝐋𝐎+𝟓𝟐 𝟓𝟔 𝟑𝟔𝟏 𝟔𝟕𝟖𝟑𝟒' // Add long description (90 caractres max) (Este parámetro se aplicará sólo si su whasapp no tiene descripción)
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "⁠themonarch bot"
-global.author = "⁠themonarch⁠"
+global.packname = "𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓"
+global.author = "⁠𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -157,9 +157,9 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "⁠themonarch"
-global.igfg = "⁠themonarch"
-global.nomorown = "521⁠8661398209"
+global.wm = "𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓"
+global.igfg = "𝐘𝐈𝐑𝐎𝐒 𝐁𝐎𝐓"
+global.nomorown = "5215636167834"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
