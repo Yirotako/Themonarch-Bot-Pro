@@ -8,36 +8,36 @@ const anime = await client.searchAnime(text);
 const result = anime.data[0];
 const resultes = await translate(`${result.background}`, {to: 'es', autoCorrect: true});
 const resultes2 = await translate(`${result.synopsis}`, {to: 'es', autoCorrect: true});
-const AnimeInfo = `🌺 ${mid.smsYT1}
+const AnimeInfo = `🚀 ${mid.smsYT1}
 • ${result.title}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈   
-🌺 ${mid.buscador2}
+🚀 ${mid.buscador2}
 • ${result.episodes}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-🌺 ${mid.buscador3}
+🚀 ${mid.buscador3}
 • ${result.source.toUpperCase()}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-🌺 ${mid.buscador4}
+🚀 ${mid.buscador4}
 • ${result.aired.from}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-🌺 ${mid.buscador5}
+🚀 ${mid.buscador5}
 • ${result.popularity}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-🌺 ${mid.buscador6}
+🚀 ${mid.buscador6}
 • ${result.favorites}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-🌺 ${mid.smsYT5}
+🚀 ${mid.smsYT5}
 • ${result.duration}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-🌺 ${mid.buscador7}
+🚀 ${mid.buscador7}
 • ${result.rating}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-🌺 ${mid.buscador8}
+🚀 ${mid.buscador8}
 • ${result.trailer.url}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 
-🌺 ${mid.smsYT4}
+🚀 ${mid.smsYT4}
 • ${result.url}`;
-conn.sendFile(m.chat, result.images.jpg.image_url, 'error.jpg', AnimeInfo, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝑴𝒐𝒏𝒌𝒆𝒚 𝑩𝒐𝒕 𝘾𝙧𝙚𝙖𝙙𝙤 𝙥𝙤𝙧 𝙈𝙤𝙣𝙤𝙫𝙖𝙣 𝙑𝙚𝙣𝙩𝙖𝙨', previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}})
+conn.sendFile(m.chat, result.images.jpg.image_url, 'error.jpg', AnimeInfo, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝐘𝐈𝐑𝐎 𝐁𝐎𝐓 𝐁𝐘 𝐘𝐈𝐑𝐎 𝐒𝐇𝐈𝐒𝐇𝐈𝐆𝐀𝐍𝐆', previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}})
 //conn.sendFile(m.chat, result.images.jpg.image_url, 'error.jpg', AnimeInfo, fkontak);
 } catch (e) {
 await conn.reply(m.chat, `${lenguajeGB['smsMalError3']()}#report ${lenguajeGB['smsMensError2']()} ${usedPrefix + command}\n\n${wm}`, fkontak, m)
